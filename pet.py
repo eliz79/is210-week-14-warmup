@@ -24,7 +24,7 @@ class Pet(object):
             weight (int): Weight of the pet in kg.
             length (int): Length of the pet in cm.
             color (str): Color of the pet.
-            owner (str, optional): Name of the pet's owner, defaults to None.  
+            owner (str, optional): Name of the pet's owner, defaults to None.
         """
         self.age = datetime.datetime.now().year - birthyear
         self.birthyear = birthyear
